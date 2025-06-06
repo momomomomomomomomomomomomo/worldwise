@@ -11,7 +11,6 @@ function CountryList() {
   const countries = cities
     .filter((city) => countriesSet.has(city.country))
     .map((city) => ({ country: city.country, emoji: city.emoji }));
-  console.log(countries);
   return (
     <ul className={styles.countryList}>
       {countries.map((country) => (

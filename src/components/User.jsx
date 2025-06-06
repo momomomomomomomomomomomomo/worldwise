@@ -10,7 +10,6 @@ function User() {
     logout();
     navigate("/");
   }
-  console.log(user);
 
   return (
     <div className={styles.user}>
